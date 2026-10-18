@@ -1,0 +1,104 @@
+/* ========== 1. Variáveis (mude as cores aqui) ========== */
+:root{
+  --bg:#0d0e11; --texto:#ecebe8; --suave:#9b9da5;
+  --vidro:rgba(24,26,32,.55); --borda:rgba(255,255,255,.08);
+  --acento:#f2c14e; --acento-brilho:rgba(242,193,78,.22);
+  --raio:20px; --raio-grande:28px;
+  --fonte:'Outfit',system-ui,sans-serif;
+  --ease:cubic-bezier(.22,.8,.3,1);
+}
+
+/* ========== 2. Base ========== */
+body{font-family:var(--fonte);background:var(--bg);color:var(--texto);line-height:1.65;min-height:100vh}
+body::before{content:"";position:fixed;inset:0;z-index:-1;
+  background:radial-gradient(60vw 50vh at 10% 0%,rgba(242,193,78,.10),transparent 70%),
+             radial-gradient(55vw 55vh at 100% 40%,rgba(70,130,150,.14),transparent 70%)}
+a{color:var(--texto);text-decoration:none;transition:color .25s var(--ease)}
+a:hover{color:var(--acento)}
+h1,h2,h3{font-weight:600;letter-spacing:-.02em;line-height:1.1}
+.secao{padding-top:3.5rem;padding-bottom:1rem}
+.titulo{font-size:clamp(1.8rem,3.5vw,2.5rem)}
+.apoio{color:var(--suave);font-weight:300;max-width:56ch;margin:.8rem 0 0}
+.vidro,.topo,.glass{background:var(--vidro);border:1px solid var(--borda);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px)}
+:focus-visible{outline:2px solid var(--acento);outline-offset:3px}
+
+/* ========== 3. Header sticky de vidro ========== */
+.topo{position:sticky;top:0;z-index:50;border-width:0 0 1px}
+.topo-in{display:flex;justify-content:space-between;align-items:center;padding-block:1rem}
+.logo{display:flex;align-items:center;gap:.7rem;font-weight:600;font-size:1.25rem;color:var(--texto)}
+.lua{width:20px;height:20px;border-radius:50%;background:var(--acento);box-shadow:inset -7px -2px 0 0 var(--bg),0 0 18px var(--acento-brilho)}
+.menu{display:flex;gap:2rem}
+.menu a,.menu-voltar{color:var(--suave);font-weight:400}
+.menu a:hover,.menu-voltar:hover{color:var(--acento)}
+
+/* ========== 4. Botão de ação (CTA) ========== */
+.cta{display:inline-block;background:var(--acento);color:#16130a;font-weight:600;border-radius:999px;padding:.7rem 1.5rem;
+  transition:transform .3s var(--ease),box-shadow .3s var(--ease)}
+.cta:hover{color:#16130a;transform:translateY(-2px);box-shadow:0 8px 28px var(--acento-brilho)}
+
+/* ========== 5. Slider ========== */
+.hero{position:relative;border-radius:var(--raio-grande);overflow:hidden;border:1px solid var(--borda)}
+.carousel-item img{width:100%;height:600px;object-fit:cover}
+.carousel-item::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(13,14,17,.75),transparent 65%)}
+.legenda{position:absolute;z-index:2;left:2rem;bottom:2rem;max-width:460px;padding:2rem;border-radius:var(--raio);background:var(--vidro);border:1px solid var(--borda);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px)}
+.legenda h2{font-size:clamp(2rem,4vw,3rem);margin:.8rem 0 .6rem}
+.legenda p{color:var(--suave);font-weight:300;margin-bottom:1.4rem}
+.chip{display:inline-block;font-size:.8rem;color:var(--acento);border:1px solid rgba(242,193,78,.35);border-radius:999px;padding:.15rem .8rem}
+.carousel-indicators{z-index:3;justify-content:flex-start;margin:0;top:1.8rem;bottom:auto;left:2rem;right:auto;gap:.5rem}
+.carousel-indicators [data-bs-target]{width:42px;height:3px;border:0;border-radius:3px;background:#fff;opacity:.3;margin:0;transition:opacity .3s,background .3s}
+.carousel-indicators .active{background:var(--acento);opacity:1}
+.controles{position:absolute;z-index:3;right:2rem;bottom:2rem;display:flex;align-items:center;gap:1rem;font-weight:300;font-size:.95rem}
+.ctrl{width:46px;height:46px;border-radius:50%;border:1px solid var(--borda);background:var(--vidro);backdrop-filter:blur(12px);color:var(--texto);font-size:1.5rem;line-height:1;
+  transition:color .25s,border-color .25s,transform .3s var(--ease)}
+.ctrl:hover{color:var(--acento);border-color:var(--acento);transform:scale(1.08)}
+
+/* ========== 6. Grid e cards ========== */
+.grade{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1.75rem;margin-top:2.5rem}
+.card-vidro{display:flex;flex-direction:column;overflow:hidden;border-radius:var(--raio);background:var(--vidro);border:1px solid var(--borda);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);
+  transition:transform .4s var(--ease),box-shadow .4s var(--ease),border-color .4s var(--ease)}
+.card-vidro:hover{transform:translateY(-6px);box-shadow:0 18px 50px var(--acento-brilho);border-color:rgba(242,193,78,.3)}
+.card-img{overflow:hidden;aspect-ratio:4/3}
+.card-img img{width:100%;height:100%;object-fit:cover;transition:transform .6s var(--ease)}
+.card-vidro:hover .card-img img{transform:scale(1.06)}
+.card-corpo{padding:1.5rem 1.5rem 1.8rem;display:flex;flex-direction:column;gap:.5rem;flex:1}
+.card-corpo h3{font-size:1.35rem;margin:0}
+.card-corpo p{color:var(--suave);font-weight:300;margin:0;flex:1}
+.card-corpo .meta{color:var(--acento);font-size:.85rem;font-weight:400;flex:none}
+.card-corpo .ver{font-weight:500;margin-top:.6rem}
+
+/* ========== 7. Detalhes ========== */
+.hero-det{display:grid;grid-template-columns:1.05fr .95fr;gap:2.5rem;align-items:center}
+.hero-det .foto{border-radius:var(--raio-grande) var(--raio-grande) var(--raio-grande) 140px;overflow:hidden;border:1px solid var(--borda);aspect-ratio:4/5;order:2}
+.hero-det .foto img{width:100%;height:100%;object-fit:cover}
+.hero-det h1{font-size:clamp(2.6rem,6vw,4.6rem);margin:.9rem 0 1.2rem}
+.hero-det .lead{font-size:1.2rem;font-weight:300;color:var(--texto)}
+.hero-det .texto{color:var(--suave);font-weight:300;max-width:58ch}
+.fatos{display:grid;grid-template-columns:repeat(2,1fr);gap:1rem;margin:2rem 0 0;padding:0;list-style:none}
+.fatos li{padding:1rem 1.2rem;border-radius:16px;background:var(--vidro);border:1px solid var(--borda);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px)}
+.fatos span{display:block;font-size:.8rem;color:var(--suave)}
+.fatos strong{font-weight:500}
+.vazio{padding:2rem;border-radius:var(--raio);margin-top:2rem}
+
+/* ========== 8. Autor e rodapé ========== */
+.autor{display:grid;grid-template-columns:1fr 1fr;gap:3rem;padding:3rem;border-radius:var(--raio-grande)}
+.dados-autor{list-style:none;margin:0;padding:0;display:grid;gap:.9rem}
+.dados-autor span{display:block;font-size:.8rem;color:var(--suave)}
+.dados-autor a{color:var(--acento)}
+.rodape{margin-top:5rem;padding:2rem 0;border-top:1px solid var(--borda);color:var(--suave);font-size:.9rem}
+
+/* ========== 9. Responsivo ========== */
+@media (max-width:991px){
+  .hero-det{grid-template-columns:1fr}
+  .hero-det .foto{order:0;aspect-ratio:16/10;border-radius:var(--raio-grande) var(--raio-grande) var(--raio-grande) 80px}
+  .autor{grid-template-columns:1fr;padding:2rem;gap:2rem}
+}
+@media (max-width:575px){
+  .menu{gap:1rem;font-size:.9rem}
+  .carousel-item img{height:480px}
+  .legenda{left:.8rem;right:.8rem;bottom:.8rem;padding:1.3rem;max-width:none}
+  .legenda p{display:none}
+  .controles{top:1.2rem;bottom:auto;right:1rem}
+  .carousel-indicators{top:auto;bottom:auto;left:1rem;top:1.9rem}
+  .fatos{grid-template-columns:1fr}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}

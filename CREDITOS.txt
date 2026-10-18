@@ -1,0 +1,89 @@
+assets/img/belo_horizonte.jpg
+  File:Belo Horizonte Brazil Skyline Aerial, December 2024.jpg
+  Autor: Spicypepper999
+  Licença: CC0
+  Fonte: https://commons.wikimedia.org/wiki/File:Belo_Horizonte_Brazil_Skyline_Aerial,_December_2024.jpg
+
+assets/img/ouro_preto.jpg
+  File:Panorama Ouro Preto (1) - 1-14989-0000-0000, Acervo do Museu Paulista da USP.jpg
+  Autor: José Rosael/Hélio Nobre/Museu Paulista da USP
+  Licença: Public domain
+  Fonte: https://commons.wikimedia.org/wiki/File:Panorama_Ouro_Preto_(1)_-_1-14989-0000-0000,_Acervo_do_Museu_Paulista_da_USP.jpg
+
+assets/img/tiradentes.jpg
+  File:EFOM 22 in Complexo Ferroviário de São João del Rei a Tiradentes.jpg
+  Autor: Pierre André Leclercq
+  Licença: CC BY-SA 4.0
+  Fonte: https://commons.wikimedia.org/wiki/File:EFOM_22_in_Complexo_Ferrovi%C3%A1rio_de_S%C3%A3o_Jo%C3%A3o_del_Rei_a_Tiradentes.jpg
+
+assets/img/capitolio.jpg
+  File:Fecho da Serra - Capitólio, Minas Gerais.jpg
+  Autor: Ana Di Tullio
+  Licença: CC BY-SA 4.0
+  Fonte: https://commons.wikimedia.org/wiki/File:Fecho_da_Serra_-_Capit%C3%B3lio,_Minas_Gerais.jpg
+
+assets/img/atracoes/pampulha.jpg
+  File:Igrejinha da Pampulha no Natal.jpg
+  Autor: Mariahaversa
+  Licença: CC BY-SA 4.0
+  Fonte: https://commons.wikimedia.org/wiki/File:Igrejinha_da_Pampulha_no_Natal.jpg
+
+assets/img/atracoes/praca_liberdade.jpg
+  File:Praça da Liberdade - Belo Horizonte.jpg
+  Autor: MICHELLE TAMIETTI
+  Licença: CC BY 3.0
+  Fonte: https://commons.wikimedia.org/wiki/File:Pra%C3%A7a_da_Liberdade_-_Belo_Horizonte.jpg
+
+assets/img/atracoes/mercado_central.jpg
+  File:Mercado Central de Belo Horizonte - Belo Horizonte - 20220213103625.jpg
+  Autor: Joalpe
+  Licença: CC BY-SA 4.0
+  Fonte: https://commons.wikimedia.org/wiki/File:Mercado_Central_de_Belo_Horizonte_-_Belo_Horizonte_-_20220213103625.jpg
+
+assets/img/atracoes/sao_francisco.jpg
+  File:Ouro Preto November 2009-13.jpg
+  Autor: Alvesgaspar
+  Licença: CC BY-SA 3.0
+  Fonte: https://commons.wikimedia.org/wiki/File:Ouro_Preto_November_2009-13.jpg
+
+assets/img/atracoes/praca_tiradentes.jpg
+  File:Praça Tiradentes, Ouro Preto - MG.jpg
+  Autor: Venturamarina
+  Licença: CC BY-SA 4.0
+  Fonte: https://commons.wikimedia.org/wiki/File:Pra%C3%A7a_Tiradentes,_Ouro_Preto_-_MG.jpg
+
+assets/img/atracoes/chico_rei.jpg
+  File:PedroVilela Mina do Chico Rei Ouro Preto MG (26995676078).jpg
+  Autor: MTur Destinos
+  Licença: Public domain
+  Fonte: https://commons.wikimedia.org/wiki/File:PedroVilela_Mina_do_Chico_Rei_Ouro_Preto_MG_(26995676078).jpg
+
+assets/img/atracoes/matriz.jpg
+  File:Igreja Matriz de Santo Antônio, Tiradentes-MG.jpg
+  Autor: Alex costa maciel
+  Licença: CC BY-SA 4.0
+  Fonte: https://commons.wikimedia.org/wiki/File:Igreja_Matriz_de_Santo_Ant%C3%B4nio,_Tiradentes-MG.jpg
+
+assets/img/atracoes/maria_fumaca.jpg
+  File:EFOM 22 in Complexo Ferroviário de São João del Rei a Tiradentes.jpg
+  Autor: Pierre André Leclercq
+  Licença: CC BY-SA 4.0
+  Fonte: https://commons.wikimedia.org/wiki/File:EFOM_22_in_Complexo_Ferrovi%C3%A1rio_de_S%C3%A3o_Jo%C3%A3o_del_Rei_a_Tiradentes.jpg
+
+assets/img/atracoes/canions.jpg
+  File:Represa de Furnas - Capitólio MG.jpg
+  Autor: Leonardo Augusto de Moura Martins
+  Licença: CC BY-SA 4.0
+  Fonte: https://commons.wikimedia.org/wiki/File:Represa_de_Furnas_-_Capit%C3%B3lio_MG.jpg
+
+assets/img/atracoes/cascatinha.jpg
+  File:Cachoeira da capivara.jpg
+  Autor: Isabela Romão
+  Licença: CC BY-SA 4.0
+  Fonte: https://commons.wikimedia.org/wiki/File:Cachoeira_da_capivara.jpg
+
+assets/img/atracoes/mirante.jpg
+  File:Mirante do Lago de Furnas - Capitólio, MG.jpg
+  Autor: Ana Di Tullio
+  Licença: CC BY-SA 4.0
+  Fonte: https://commons.wikimedia.org/wiki/File:Mirante_do_Lago_de_Furnas_-_Capit%C3%B3lio,_MG.jpg
