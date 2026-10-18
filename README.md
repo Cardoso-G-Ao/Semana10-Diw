@@ -1,4 +1,4 @@
-# Garden C-Moon
+# Luar das Gerais 
 
 Site de turismo com destinos de Minas Gerais, feito como Trabalho Prático da disciplina de desenvolvimento web. Todo o conteúdo das páginas é montado por JavaScript a partir de uma estrutura JSON.
 
